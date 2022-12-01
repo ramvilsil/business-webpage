@@ -1,2 +1,2 @@
-# business-website
-Simple business website built with React
+# Small Business Website
+Simple business website built with React, styled with custom CSS
