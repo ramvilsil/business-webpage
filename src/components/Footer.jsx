@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div>
             <footer>
-                Our Company 2022
+                &#169; 2022 Our Business
             </footer>
         </div>
     )
