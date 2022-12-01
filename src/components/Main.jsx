@@ -2,7 +2,7 @@ import React from "react";
 
 import Stats from './Stats'
 
-import CompanyImage from "./pexels-pixabay-269077.jpg"
+import CompanyImage from "../assets/pexels-pixabay-269077.jpg"
 
 const Main = () => {
     return (

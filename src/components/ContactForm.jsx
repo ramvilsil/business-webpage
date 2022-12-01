@@ -8,12 +8,13 @@ const ContactForm = () => {
                 <h1>Contact</h1>
                 <form>
                     <label for="fname">Name:</label>
-                    <input type="text" placeholder="Name"></input>
+                    <input className="input" type="text" placeholder="Name"></input>
                     <label for="fname">Email:</label>
-                    <input type="text" placeholder="Email"></input>
+                    <input className="input" type="text" placeholder="Email"></input>
                     <label for="fname">Number:</label>
-                    <input type="text" placeholder="Number"></input>
-                    <input type="submit" value="Submit"></input>
+                    <input className="input" type="text" placeholder="Number"></input>
+
+                    <input className="submit-button" type="submit" value="Submit"></input>
                 </form>
 
             </div>
