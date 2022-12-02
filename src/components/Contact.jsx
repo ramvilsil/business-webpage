@@ -4,7 +4,8 @@ import ContactForm from "./ContactForm";
 
 const Contact = () => {
     return (
-        <div id="contact" className="contact-page">
+
+        <div id="contact" className="contact-section">
 
             <ContactForm />
 
@@ -13,4 +14,4 @@ const Contact = () => {
 }
 
 
-export default Contact
+export default Contact;

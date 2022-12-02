@@ -3,11 +3,14 @@ import React from "react";
 
 const ContactForm = () => {
     return (
-        <div>
+        <>
+
             <div className="contact-form">
 
-                <h1>Contact</h1>
+                {/* Title */}
+                <h1>Contact Us</h1>
 
+                {/* Form */}
                 <form>
 
                     <label for="fname">Name:</label>
@@ -27,7 +30,7 @@ const ContactForm = () => {
 
             </div>
 
-        </div>
+        </>
     )
 }
 
