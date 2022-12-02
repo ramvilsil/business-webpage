@@ -2,19 +2,19 @@ html {
   scroll-behavior: smooth;
 }
 
-
 body {
   margin: 0;
-  background-color: grey;
-  color: white;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: lightgrey;
+  color: rgb(36, 36, 36);
+  font-family: Helvetica;
+  letter-spacing: 0.1rem;
 }
 
 /* Navbar */
 
 .navbar {
   background-color: transparent;
-  color: white;
+  color: rgb(36, 36, 36);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,9 +35,9 @@ body {
 }
 
 .navbar a {
-  color: white;
+  color: rgb(36, 36, 36);
   text-decoration: none;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 .navbar a:hover {
@@ -51,23 +51,25 @@ body {
   font-weight: bold;
 }
 
-
 /* Home */
 
 .main-container {
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10vh;
- 
+  text-align: center;
+  font-size: 1rem;
+  margin: 10%;
+  margin-bottom: 0;
 }
 
 .main-page img {
-  width: 30vw;
-  padding: 5rem;
+  width: 35vw;
+  padding: 1rem;
   background-color: white;
   margin-left: 5vw;
-  border-radius: 1rem;
+  border-radius: 3rem;
 }
 
 .main-page {
@@ -79,22 +81,33 @@ body {
 }
 
 
-/* Home - Stats Section */
+/* Home - Stats Component */
 
 .stats-container {
   margin: 5rem;
-  background-color: black;
+  background-color: rgb(36, 36, 36);
+
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  border-radius: 5rem;
+  font-weight: bold;
 }
 
 
 .stats-container li {
   margin-right: 2rem;
+  padding: 1rem;
+
 }
+
+.stats-container li:hover {
+  background-color: rgb(80, 80, 80);
+  border-radius: 5rem;
+  cursor: default;
+}
+
 
 
 .stats-container ul {
@@ -110,6 +123,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .about-text {
@@ -117,16 +132,22 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-size: 1.25rem;
+  text-align: center;
+  width: 50%;
+}
+
+.about-text h1 {
+  text-decoration: underline;
 }
 
 .about img {
-  width: 30vw;
-  padding: 5rem;
+  height: 70vh;
+  padding: 1rem;
   background-color: white;
-  margin-left: 5vw;
-  border-radius: 1rem;
-}
+  border-radius: 3rem;
 
+}
 
 /* Contact */
 
@@ -164,8 +185,6 @@ body {
 
 }
 
-
-
 .input {
   height: 0.5rem;
   border: 0;
@@ -192,16 +211,24 @@ body {
 
 /* Footer styling */
 footer {
-  background-color: black;
-  color: white;
+  background-image: linear-gradient(#d3d3d3, white, white, white,  white);
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh;
   width: 100%;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  font-size: 1rem;
+}
+
+footer div {
+  margin-top: 1rem;
 }
 
 
+/* Mobile devices */
 
 @media screen and (max-width: 1000px) {
 
@@ -228,10 +255,54 @@ footer {
     width: 100%;
   }
   .navbar {
-    background-color: black;
     opacity: .5;
   }
   .nav-left {
     font-size: 5rem;
+  }
+
+  footer {
+    height: 10vh;
+    font-size: 2.5rem;
+  }
+
+  .contact-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .contact-form {
+    border-radius: 1rem;
+    
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+  
+    align-items: center;
+    flex-direction: column;
+    font-size: 3rem;
+
+    
+  }
+  
+  .contact-form form {
+
+
+  }
+
+  .contact-form label {
+    font-size: 3rem;
+  }
+
+  .contact-form input {
+    height: 3rem;
+    font-size: 3rem;
+
+  }
+
+  .submit-button {
+    height: 8rem;
   }
 }

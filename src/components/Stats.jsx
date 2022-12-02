@@ -6,12 +6,16 @@ const Stats = () => {
         <div>
 
             <div className="stats-container">
+
                 <ul>
-                    <li>10k employees</li>
-                    <li>1b revenue</li>
-                    <li>Seattle, WA</li>
+
+                    <li>Portland, Oregon</li>
+                    <li>4.7 Stars ⭐</li>
                     <li>Founded 2019</li>
+                    <li>3 Locations 📍</li>
+
                 </ul>
+                
             </div>
 
         </div>
