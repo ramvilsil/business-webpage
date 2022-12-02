@@ -1,8 +1,16 @@
-import React from "react";
+import './Navbar.css' 
+
+import { FaBars, FaTimes } from 'react-icons/fa';
+
+import React, { useState } from "react";
 
 
 
 const Navbar = () => {
+
+    const [nav, setNav] = useState(false);
+    const handleClick = () => setNav(!nav);
+
     return (
         <>
             
@@ -10,23 +18,42 @@ const Navbar = () => {
 
                 <div className="nav-left">Business</div>
 
-                {/* Navigation Links */}
+                {!nav ? 
                 <ul>
 
                     <li className="navbar-links"><a href="#home">Home</a></li>
                     <li className="navbar-links"><a href="#about">About</a></li>
                     <li className="navbar-links"><a href="#contact">Contact</a></li>
 
-                    {/* Hamburger Icon for mobile screens*/}
-                    <a class="toggle-button">
+                    <a  class="toggle-button" onClick={handleClick}>
 
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
+                        <FaBars size={100} />
 
                     </a>
 
                 </ul>
+                : <>
+
+                    <div className='mobile-menu'>
+
+                        <a class="toggle-button" onClick={handleClick}>
+
+                            <FaTimes size={100}  />
+
+                        </a>
+                        <li ><a href="#home" onClick={handleClick}>Home</a></li>
+                        <li><a href="#about" onClick={handleClick}>About</a></li>
+                        <li><a href="#contact" onClick={handleClick}>Contact</a></li>
+
+                        
+
+
+                    </div>
+
+                    
+
+                
+                    </>}
 
             </div>
 
