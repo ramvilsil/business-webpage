@@ -1,6 +1,6 @@
 import React from "react";
-
 import ContactForm from "./ContactForm";
+
 
 const Contact = () => {
     return (
@@ -11,5 +11,6 @@ const Contact = () => {
         </div>
     )
 }
+
 
 export default Contact
