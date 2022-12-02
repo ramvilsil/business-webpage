@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  
   margin: 0;
   background-color: lightgrey;
   color: rgb(36, 36, 36);
@@ -151,7 +152,7 @@ body {
 
 /* Contact */
 
-.contact-page {
+.contact-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -230,15 +231,68 @@ footer div {
 
 /* Mobile devices */
 
+.toggle-button {
+  position: absolute;
+  top: 2.5rem;
+  right: 2rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 5rem;
+  height: 5rem;
+}
+
+.toggle-button .bar {
+  height: 0.75rem;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+
+
 @media screen and (max-width: 1000px) {
+
+
+
+
+
+  .navbar-links {
+    display: none;
+    
+
+  }
+
+
+  
+  .toggle-button {
+    display: flex;
+  }
+
+
+  /* TEMPORARY - mobile screen width is broken */
+  body {
+    width: 110%;
+  }
+  /* TEMPORARY ------------------------------- */
 
   .main-container {
     flex-direction: column;
     font-size: 3rem;
     align-items: center;
-    margin: auto;
     justify-content: center;
+  }
 
+  .main-container img {
+    width: 90vw;
+  }
+
+  .stats-container {
+    font-size: 2rem;
+    margin: 0;
+    margin-top: 5rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
   }
 
 
@@ -250,13 +304,17 @@ footer div {
     font-size: 3rem;
     align-items: center;
   }
+
+  .about-text {
+    font-size: 2.5rem;
+    width: 90%;
+  }
   .about img {
     padding: 1rem;
-    width: 100%;
+    width: 70%;
+    height: auto;
   }
-  .navbar {
-    opacity: .5;
-  }
+ 
   .nav-left {
     font-size: 5rem;
   }
@@ -266,7 +324,7 @@ footer div {
     font-size: 2.5rem;
   }
 
-  .contact-page {
+  .contact-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -287,11 +345,6 @@ footer div {
     
   }
   
-  .contact-form form {
-
-
-  }
-
   .contact-form label {
     font-size: 3rem;
   }
@@ -304,5 +357,9 @@ footer div {
 
   .submit-button {
     height: 8rem;
+  }
+
+  footer {
+    margin-bottom: 15vh;
   }
 }

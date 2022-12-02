@@ -7,6 +7,7 @@ const Main = () => {
     return (
         <div id="home" className="main-page">
 
+            {/* 2 columns */}
             <div class="main-container">
 
                 <h1>A Different Kind Of Company.<br></br>A Different Kind Of Computer.</h1>
