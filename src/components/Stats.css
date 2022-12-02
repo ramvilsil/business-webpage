@@ -1,0 +1,49 @@
+
+/* Home - Stats Component */
+
+.stats-container {
+    margin: 5rem;
+    background-color: rgb(36, 36, 36);
+  
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    font-weight: bold;
+  }
+  
+  
+  .stats-container li {
+    margin-right: 2rem;
+    padding: 1rem;
+  
+  }
+  
+  .stats-container li:hover {
+    background-color: rgb(80, 80, 80);
+    border-radius: 5rem;
+    cursor: default;
+  }
+  
+  
+  
+  .stats-container ul {
+    list-style: none;
+    display: flex;
+  }
+
+
+  @media screen and (max-width: 1000px) {
+
+
+  
+    .stats-container {
+      font-size: 2rem;
+      margin: 0;
+      margin-top: 5rem;
+      margin-left: 10vw;
+      margin-right: 10vw;
+      text-align: center;
+    }
+  }

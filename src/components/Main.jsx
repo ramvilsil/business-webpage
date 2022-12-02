@@ -2,6 +2,7 @@ import React from "react";
 import Stats from './Stats'
 import CompanyImage from "../assets/pexels-pixabay-269077.jpg"
 
+import './Main.css'
 
 const Main = () => {
     return (

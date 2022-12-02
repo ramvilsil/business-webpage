@@ -1,6 +1,6 @@
 import React from "react";
 import TeamImage from "../assets/pexels-fauxels-3183172.jpg"
-
+import './About.css'
 
 const About = () => {
     return (

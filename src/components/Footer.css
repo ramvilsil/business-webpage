@@ -1,0 +1,25 @@
+/* Footer styling */
+footer {
+    background-image: linear-gradient(#d3d3d3, white, white, white,  white);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+  }
+  
+  footer div {
+    margin-top: 1rem;
+  }
+
+@media screen and (max-width: 1000px) {
+    footer {
+        height: 10vh;
+        font-size: 2.5rem;
+      }
+    
+}
