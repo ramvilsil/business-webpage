@@ -15,7 +15,7 @@
   .main-page img {
     width: 35vw;
     padding: 1rem;
-    background-color: white;
+    background-color: rgb(36, 36, 36);
     margin-left: 5vw;
     border-radius: 3rem;
   }
@@ -28,7 +28,7 @@
     flex-direction: column;
   }
 
-  @media screen and (max-width: 1000px) {
+  @media (orientation: portrait ) {
 
 
   

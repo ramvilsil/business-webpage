@@ -10,6 +10,7 @@ const Footer = () => {
                 <div>&#169; 2022 Our Business</div>
                 <div>Privacy</div>
                 <div>Locations</div>
+                <div><a href="#about">About</a></div>
 
             </footer>
 
