@@ -1,22 +1,15 @@
+
+
+
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  
+  font-family: 'Helvetica';
   margin: 0;
-  background-color: lightgrey;
+  background-color: white;
   color: rgb(36, 36, 36);
-  font-family: Helvetica;
-  letter-spacing: 0.1rem;
-}
-
-@media screen and (max-width: 1000px) {
-
-  /* TEMPORARY - mobile screen width is broken */
-  body {
-    width: 110%;
-  }
-  /* TEMPORARY ------------------------------- */
-
+  letter-spacing: .5px;
 }

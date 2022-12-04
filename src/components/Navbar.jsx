@@ -16,7 +16,7 @@ const Navbar = () => {
             
             <div className="navbar">
 
-                <div className="nav-left">Business</div>
+                <div className="nav-left">Business.</div>
 
                 {!nav ? 
                 <ul>
@@ -41,10 +41,13 @@ const Navbar = () => {
                             <FaTimes size={100}  />
 
                         </a>
+                        <ul>
+
+                        
                         <li ><a href="#home" onClick={handleClick}>Home</a></li>
                         <li><a href="#about" onClick={handleClick}>About</a></li>
                         <li><a href="#contact" onClick={handleClick}>Contact</a></li>
-
+                        </ul>
                         
 
 
