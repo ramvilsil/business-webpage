@@ -15,17 +15,22 @@ const ContactForm = () => {
                 {/* Form */}
                 <form>
 
-                    <label for="fname">NAME</label>
+                    <label for="">NAME</label>
 
                     <input className="input" type="text" ></input>
                     
-                    <label for="fname">EMAIL</label>
+                    <label for="">EMAIL</label>
 
                     <input className="input" type="text"></input>
                     
-                    <label for="fname">NUMBER</label>
+                    <label for="">PHONE NUMBER</label>
 
                     <input className="input" type="text"></input>
+
+                    <label for="">MESSAGE</label>
+
+                    <textarea className="messageInput" type="text"></textarea>
+
                     <input className="submit-button" type="submit" value="Submit"></input>
 
                 </form>
