@@ -28,14 +28,25 @@ label {
     border: 0;
     border-radius: 1rem;
     padding: 1rem;
-    margin-top: 0.1rem;
+    margin-top: 0.2rem;
     margin-bottom: 1rem;
 }
+
+.messageInput {
+    height: 5rem;
+    border: 0;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+
 
 .submit-button {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background-color: rgb(78, 167, 0);
+    background-color: rgb(124, 181, 55);
     color: white;
     height: 3rem;
     border-color: white;
@@ -46,7 +57,7 @@ label {
 }
 
 .submit-button:hover {
-    background-color: green;
+    opacity: 0.8;
     cursor: pointer;
 }
   
