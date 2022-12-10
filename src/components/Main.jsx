@@ -1,8 +1,7 @@
 import React from "react";
 import Stats from './Stats'
+import './Main.modules.css'
 import CompanyImage from "../assets/pexels-pixabay-269077.jpg"
-
-import './Main.css'
 
 const Main = () => {
     return (
@@ -17,7 +16,6 @@ const Main = () => {
 
             </div>
 
-            {/*Stats component*/}
             <Stats />
 
         </div>

@@ -1,6 +1,7 @@
 import React from "react";
-import './Stats.css'
+import './Stats.modules.css'
 
+{/* Statistics */}
 const Stats = () => {
     return (
         <>

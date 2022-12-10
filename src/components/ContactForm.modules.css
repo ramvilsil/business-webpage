@@ -1,28 +1,25 @@
+/* Form container */
 .contact-form {
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: rgb(36, 36, 36);
 }
-  
-.contact-form form {
 
-  width: 40vw;
+
+.contact-form form {
+    width: 40vw;
     flex-direction: column;
     display: flex;
-    background-color: rgb(36, 36, 36);
-    color: white;
-    padding: 2rem;
-    border-radius: 1rem;
 }
 
+/* Input labels */
 label {
   font-weight: bold;
 }
 
-/* non button inputs */
+/* Text inputs */
 .input {
     height: 0.5rem;
     border: 0;
@@ -30,6 +27,7 @@ label {
     padding: 1rem;
     margin-top: 0.2rem;
     margin-bottom: 1rem;
+    border: 0.1rem solid rgb(36, 36, 36);
 }
 
 .messageInput {
@@ -39,27 +37,31 @@ label {
     padding: 1rem;
     margin-top: 0.2rem;
     margin-bottom: 1rem;
+    resize: none;
+    border: 0.1rem solid rgb(36, 36, 36);
 }
 
-
-
+/* Send message button */
 .submit-button {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background-color: rgb(124, 181, 55);
-    color: white;
+    background-color: rgb(36, 36, 36);
     height: 3rem;
     border-color: white;
-    border-radius: 3rem;
+    color: white;
+    border-radius: 1rem;
     font-weight: bold;
     width: 30%;
     align-self: center;
+    border: 0.1rem solid rgb(36, 36, 36);
 }
 
 .submit-button:hover {
-    opacity: 0.8;
+    opacity: 0.9;
     cursor: pointer;
 }
+
+
   
 @media (orientation: portrait ) {
   
