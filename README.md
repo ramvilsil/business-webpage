@@ -1,2 +1,2 @@
-# Small Business Website
-Simple mobile-friendly business website built with React, styled with custom CSS
+# Small Business Webpage
+Simple business website with React, styled with custom CSS
