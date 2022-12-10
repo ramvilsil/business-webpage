@@ -1,8 +1,11 @@
 import React from "react";
-import './ContactForm.css'
+import './ContactForm.modules.css'
 
+{/* Contact Section - Form */}
 const ContactForm = () => {
+
     return (
+
         <>
 
             <div className="contact-form">
@@ -31,7 +34,7 @@ const ContactForm = () => {
 
                     <textarea className="messageInput" type="text"></textarea>
 
-                    <input className="submit-button" type="submit" value="Submit"></input>
+                    <input className="submit-button" type="submit" value="Send Message"></input>
 
                 </form>
 

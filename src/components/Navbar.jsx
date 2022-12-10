@@ -1,4 +1,4 @@
-import './Navbar.css' 
+import './Navbar.modules.css' 
 
 import { FaBars, FaTimes } from 'react-icons/fa';
 
