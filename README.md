@@ -8,5 +8,5 @@ The web page was developed primarily to practice CSS positioning and to gain f
 Find out more about this project by checking out its dedicated [page on my portfolio website](https://rxvs.dev/projects/small-business)
 
 ## Set Up
-To demo this application you may visit the [link](business-website-one.vercel.app/) in this GitHub's about section for this repository.
+To demo this application you may visit the [link](https://business-website-one.vercel.app/) in this GitHub's about section for this repository.
 
