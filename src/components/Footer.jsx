@@ -6,9 +6,13 @@ const Footer = () => {
         <>
 
             <footer>
+
                 <div>&#169; 2022 Our Business</div>
+
                 <div><a href="/">Privacy</a></div>
+
                 <div><a href="https://rxvs.dev/projects/small-business">Learn More</a></div>
+
             </footer>
 
         </>

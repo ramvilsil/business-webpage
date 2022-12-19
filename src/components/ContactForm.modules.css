@@ -1,17 +1,16 @@
 /* Form container */
 .contact-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: rgb(36, 36, 36);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(36, 36, 36);
 }
 
-
 .contact-form form {
-    width: 40vw;
-    flex-direction: column;
-    display: flex;
+  width: 40vw;
+  flex-direction: column;
+  display: flex;
 }
 
 /* Input labels */
@@ -21,80 +20,78 @@ label {
 
 /* Text inputs */
 .input {
-    height: 0.5rem;
-    border: 0;
-    border-radius: 1rem;
-    padding: 1rem;
-    margin-top: 0.2rem;
-    margin-bottom: 1rem;
-    border: 0.1rem solid rgb(36, 36, 36);
+  height: 0.5rem;
+  border: 0;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+  border: 0.1rem solid rgb(36, 36, 36);
 }
 
 .messageInput {
-    height: 5rem;
-    border: 0;
-    border-radius: 1rem;
-    padding: 1rem;
-    margin-top: 0.2rem;
-    margin-bottom: 1rem;
-    resize: none;
-    border: 0.1rem solid rgb(36, 36, 36);
+  height: 5rem;
+  border: 0;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+  resize: none;
+  border: 0.1rem solid rgb(36, 36, 36);
 }
 
 /* Send message button */
 .submit-button {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    background-color: rgb(36, 36, 36);
-    height: 3rem;
-    border-color: white;
-    color: white;
-    border-radius: 1rem;
-    font-weight: bold;
-    width: 30%;
-    align-self: center;
-    border: 0.1rem solid rgb(36, 36, 36);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgb(36, 36, 36);
+  height: 3rem;
+  border-color: white;
+  color: white;
+  border-radius: 1rem;
+  font-weight: bold;
+  width: 30%;
+  align-self: center;
+  border: 0.1rem solid rgb(36, 36, 36);
 }
 
 .submit-button:hover {
-    opacity: 0.9;
-    cursor: pointer;
+  opacity: 0.9;
+  cursor: pointer;
 }
 
+@media (orientation: portrait) {
+  .contact-form {
+    border-radius: 1rem;
 
-  
-@media (orientation: portrait ) {
-  
+    width: 90vw;
+    display: flex;
+    justify-content: center;
 
-    
-    .contact-form {
-      border-radius: 1rem;
-      
-      width: 90vw;
-      display: flex;
-      justify-content: center;
-    
-      align-items: center;
-      flex-direction: column;
-      font-size: 3rem;
-  
-      
-    }
-    
-    .contact-form label {
-      font-size: 3rem;
-    }
-  
-    .contact-form input {
-      height: 3rem;
-      font-size: 3rem;
-  
-    }
-  
-    .submit-button {
-      width: 100%;
-      font-size: 1rem;
-    }
-  
-    
+    align-items: center;
+    flex-direction: column;
+    font-size: 3rem;
   }
+
+  .contact-form form {
+    width: 90vw;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .contact-form label {
+    font-size: 3rem;
+  }
+
+  .contact-form input {
+    height: 3rem;
+    font-size: 3rem;
+
+  }
+
+  .submit-button {
+    width: 100%;
+    height: 9rem;
+    font-size: 1rem;
+  }
+}
